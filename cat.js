@@ -8,6 +8,10 @@ Cat.prototype.run = () => {
     console.log("Running...")
 }
 
+Cat.prototype.eat = (mouse) => {
+    console.log("Eating...")
+}
+
 Cat.prototype.sleep = () => {
     console.log("Sleeping...")
 }
