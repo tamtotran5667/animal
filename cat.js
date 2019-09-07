@@ -8,4 +8,8 @@ Cat.prototype.run = () => {
     console.log("Running...")
 }
 
+Cat.prototype.sleep = () => {
+    console.log("Sleeping...")
+}
+
 module.exports = Cat
