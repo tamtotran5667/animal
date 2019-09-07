@@ -8,4 +8,7 @@ Cat.prototype.run = () => {
     console.log("Running...")
 }
 
+Cat.prototype.eat = (mouse) => {
+    console.log("Eating...")
+}
 module.exports = Cat
